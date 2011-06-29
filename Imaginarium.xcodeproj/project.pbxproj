@@ -14,6 +14,7 @@
 		27D9F233139BF4FC0000B088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D9F232139BF4FC0000B088 /* main.m */; };
 		27D9F236139BF4FD0000B088 /* ImaginariumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D9F235139BF4FD0000B088 /* ImaginariumAppDelegate.m */; };
 		27D9F239139BF4FD0000B088 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D9F237139BF4FD0000B088 /* MainWindow.xib */; };
+		27D9F253139BFB6C0000B088 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27D9F252139BFB6B0000B088 /* earth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,14 @@
 		27D9F225139BF4FA0000B088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27D9F227139BF4FA0000B088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27D9F229139BF4FA0000B088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		27D9F22D139BF4FB0000B088 /* Imaginarium-Info.plist */ = {isa = PBXFileReference; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
+		27D9F22D139BF4FB0000B088 /* Imaginarium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
 		27D9F22F139BF4FC0000B088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		27D9F231139BF4FC0000B088 /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
+		27D9F231139BF4FC0000B088 /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
 		27D9F232139BF4FC0000B088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		27D9F234139BF4FD0000B088 /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
+		27D9F234139BF4FD0000B088 /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
 		27D9F235139BF4FD0000B088 /* ImaginariumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumAppDelegate.m; sourceTree = "<group>"; };
 		27D9F238139BF4FD0000B088 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		27D9F252139BFB6B0000B088 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		27D9F22C139BF4FB0000B088 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27D9F252139BFB6B0000B088 /* earth.jpg */,
 				27D9F22D139BF4FB0000B088 /* Imaginarium-Info.plist */,
 				27D9F22E139BF4FC0000B088 /* InfoPlist.strings */,
 				27D9F231139BF4FC0000B088 /* Imaginarium-Prefix.pch */,
@@ -145,6 +148,7 @@
 			files = (
 				27D9F230139BF4FC0000B088 /* InfoPlist.strings in Resources */,
 				27D9F239139BF4FD0000B088 /* MainWindow.xib in Resources */,
+				27D9F253139BFB6C0000B088 /* earth.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +265,7 @@
 				27D9F23E139BF4FE0000B088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ImaginariumAppDelegate : NSObject <UIApplicationDelegate> {
-
+@interface ImaginariumAppDelegate : NSObject <UIApplicationDelegate, UIScrollViewDelegate> {
+    UIImageView *imgView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
