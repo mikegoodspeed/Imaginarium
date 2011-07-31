@@ -27,7 +27,6 @@
     [scrollView addSubview:imgView];
     [self.window addSubview:scrollView];
     [self.window makeKeyAndVisible];
-    [image release];
     return YES;
 }
 
